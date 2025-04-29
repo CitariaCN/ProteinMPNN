@@ -1,0 +1,53 @@
+Conservation Summary for Region 115-162
+
+Reference sequence for this region:
+115:K 116:V 117:I 118:I 119:T 120:E 121:G 122:A 123:F 124:E 
+125:G 126:F 127:Q 128:A 129:I 130:F 131:T 132:E 133:P 134:D 
+135:G 136:E 137:A 138:R 139:S 140:M 141:L 142:L 143:L 144:N 
+145:L 146:I 147:N 148:K 149:E 150:I 151:K 152:H 153:S 154:V 
+155:K 156:N 157:T 158:E 159:F 160:R 161:K 162:L 
+
+At 57% identity:
+- 14 out of 48 positions conserved (29.2%)
+- Conserved positions differing from reference: 115:K->G, 117:I->R, 119:T->P, 122:A->V, 123:F->P, 127:Q->I, 130:F->L, 148:K->P, 153:S->G, 154:V->D, 156:N->V, 158:E->I, 159:F->T, 161:K->G
+
+At 62% identity:
+- 32 out of 48 positions conserved (66.7%)
+- Conserved positions matching reference: 162:L
+- Conserved positions differing from reference: 115:K->P, 116:V->L, 117:I->F, 118:I->P, 119:T->N, 120:E->Y, 121:G->L, 122:A->F, 125:G->F, 126:F->D, 127:Q->P, 128:A->E, 130:F->I, 131:T->H, 132:E->T, 133:P->T, 134:D->T, 135:G->I, 138:R->T, 139:S->R, 140:M->G, 141:L->V, 142:L->S, 144:N->F, 145:L->V, 146:I->R, 147:N->F, 148:K->G, 151:K->P, 158:E->V, 159:F->I
+
+At 67% identity:
+- 21 out of 48 positions conserved (43.8%)
+- Conserved positions matching reference: 150:I
+- Conserved positions differing from reference: 117:I->P, 120:E->V, 121:G->I, 124:E->L, 126:F->A, 131:T->H, 136:E->Y, 137:A->S, 139:S->P, 142:L->P, 145:L->G, 146:I->D, 148:K->V, 152:H->D, 153:S->G, 154:V->A, 156:N->G, 158:E->F, 160:R->G, 161:K->L
+
+At 72% identity:
+- 42 out of 48 positions conserved (87.5%)
+- Conserved positions matching reference: 129:I, 131:T, 138:R
+- Conserved positions differing from reference: 115:K->L, 116:V->F, 117:I->P, 118:I->N, 119:T->Y, 120:E->L, 121:G->F, 122:A->I, 123:F->E, 124:E->F, 125:G->D, 126:F->P, 127:Q->E, 130:F->H, 132:E->T, 133:P->T, 134:D->I, 135:G->S, 136:E->A, 137:A->T, 139:S->G, 140:M->V, 143:L->F, 144:N->V, 145:L->R, 146:I->X, 147:N->W, 148:K->R, 149:E->P, 150:I->T, 151:K->R, 152:H->Y, 153:S->R, 154:V->P, 155:K->F, 156:N->G, 159:F->P, 160:R->A, 162:L->S
+
+At 77% identity:
+- 38 out of 48 positions conserved (79.2%)
+- Conserved positions matching reference: 119:T, 135:G, 153:S
+- Conserved positions differing from reference: 115:K->P, 116:V->E, 120:E->D, 121:G->P, 123:F->T, 124:E->P, 127:Q->G, 128:A->D, 130:F->V, 132:E->I, 133:P->T, 136:E->A, 137:A->F, 138:R->E, 139:S->G, 140:M->L, 142:L->A, 143:L->I, 144:N->F, 146:I->E, 147:N->P, 148:K->D, 149:E->G, 150:I->E, 151:K->A, 152:H->R, 154:V->M, 155:K->L, 156:N->L, 157:T->L, 158:E->N, 159:F->L, 160:R->L, 161:K->N, 162:L->K
+
+At 82% identity:
+- 34 out of 48 positions conserved (70.8%)
+- Conserved positions matching reference: 133:P
+- Conserved positions differing from reference: 116:V->P, 117:I->A, 119:T->V, 120:E->P, 121:G->S, 123:F->V, 124:E->I, 125:G->H, 126:F->Q, 127:Q->L, 128:A->S, 130:F->Y, 131:T->Q, 134:D->E, 138:R->D, 139:S->P, 141:L->T, 142:L->P, 143:L->Y, 146:I->G, 147:N->D, 149:E->V, 151:K->I, 152:H->T, 153:S->E, 154:V->G, 155:K->A, 156:N->F, 157:T->E, 158:E->G, 159:F->L, 161:K->A, 162:L->I
+
+At 87% identity:
+- 43 out of 48 positions conserved (89.6%)
+- Conserved positions matching reference: 142:L, 143:L
+- Conserved positions differing from reference: 115:K->D, 117:I->V, 119:T->I, 120:E->T, 121:G->E, 122:A->G, 123:F->A, 124:E->F, 125:G->E, 126:F->G, 127:Q->L, 129:I->A, 130:F->I, 131:T->F, 132:E->T, 133:P->E, 134:D->P, 135:G->D, 136:E->G, 137:A->E, 138:R->A, 139:S->R, 140:M->S, 141:L->M, 144:N->L, 145:L->N, 146:I->L, 147:N->L, 148:K->N, 149:E->K, 150:I->E, 152:H->K, 153:S->Q, 154:V->S, 155:K->V, 156:N->K, 157:T->N, 158:E->T, 160:R->F, 161:K->R, 162:L->K
+
+At 92% identity:
+- 44 out of 48 positions conserved (91.7%)
+- Conserved positions matching reference: 116:V, 117:I, 118:I, 119:T, 120:E, 121:G, 122:A, 123:F, 124:E, 125:G, 126:F, 127:Q, 128:A, 129:I, 130:F, 132:E, 133:P, 134:D, 135:G, 136:E, 137:A, 138:R, 139:S, 140:M, 141:L, 142:L, 143:L, 144:N, 145:L, 146:I, 147:N, 148:K, 151:K, 152:H, 153:S, 154:V, 155:K, 156:N, 157:T
+- Conserved positions differing from reference: 158:E->P, 159:F->N, 160:R->E, 161:K->F, 162:L->R
+
+At 97% identity:
+- 47 out of 48 positions conserved (97.9%)
+- Conserved positions matching reference: 116:V, 128:A
+- Conserved positions differing from reference: 115:K->F, 117:I->R, 118:I->F, 119:T->G, 120:E->A, 121:G->S, 122:A->P, 123:F->A, 124:E->I, 125:G->V, 126:F->P, 127:Q->S, 129:I->V, 130:F->I, 131:T->H, 132:E->Q, 133:P->L, 134:D->S, 135:G->V, 136:E->Y, 137:A->K, 138:R->P, 139:S->K, 140:M->D, 141:L->I, 142:L->V, 143:L->D, 144:N->P, 146:I->T, 147:N->P, 148:K->Y, 149:E->P, 150:I->G, 151:K->D, 152:H->K, 153:S->V, 154:V->I, 155:K->I, 156:N->T, 157:T->E, 158:E->G, 159:F->A, 160:R->F, 161:K->E, 162:L->G
+
