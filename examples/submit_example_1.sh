@@ -5,7 +5,6 @@
 #SBATCH -c 2
 #SBATCH --output=example_1.out
 
-source activate mlfold
 
 folder_with_pdbs="../inputs/PDB_monomers/pdbs/"
 
