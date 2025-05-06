@@ -10,7 +10,7 @@
 # Update these paths to match your actual directory structure
 PROTEIN_MPNN_DIR="/home/cfneira1/ProteinMPNN"  # Update this to the actual path of your ProteinMPNN directory
 folder_with_pdbs="${PROTEIN_MPNN_DIR}/inputs/PDB_RfaH"
-base_output_dir="${PROTEIN_MPNN_DIR}/Seqstats/identity_positions"
+base_output_dir="${PROTEIN_MPNN_DIR}/Seqs/identity_positions"
 
 # Create base output directory if it doesn't exist
 if [ ! -d $base_output_dir ]; then
@@ -18,7 +18,12 @@ if [ ! -d $base_output_dir ]; then
 fi
 
 # Path to the conservation summary file
-conservation_file="../inputs/region_115_162_summary.txt"
+conservation_file="${PROTEIN_MPNN_DIR}/preanalysis/identity_conservation_aa_results_1/individual_region_analysis/region_115_162_summary.txt"
+
+# Define paths for intermediate files
+path_for_parsed_chains="$base_output_dir/parsed_pdbs.jsonl"
+path_for_assigned_chains="$base_output_dir/assigned_pdbs.jsonl"
+chains_to_design="A"
 
 # Create a temporary Python script to extract positions by identity
 cat > extract_positions.py << 'EOF'
@@ -114,9 +119,9 @@ chains_to_design="A"
 
 # Preprocessing PDB files (only need to do this once)
 echo "Preprocessing PDB files..."
-python ../helper_scripts/parse_multiple_chains.py --input_path=$folder_with_pdbs --output_path=$path_for_parsed_chains
+python ${PROTEIN_MPNN_DIR}/helper_scripts/parse_multiple_chains.py --input_path=$folder_with_pdbs --output_path=$path_for_parsed_chains
 
-python ../helper_scripts/assign_fixed_chains.py --input_path=$path_for_parsed_chains --output_path=$path_for_assigned_chains --chain_list "$chains_to_design"
+python ${PROTEIN_MPNN_DIR}/helper_scripts/assign_fixed_chains.py --input_path=$path_for_parsed_chains --output_path=$path_for_assigned_chains --chain_list "$chains_to_design"
 
 # Define identity thresholds to use
 identity_thresholds=(57 62 67 72 77 82 87 92 97)
@@ -169,10 +174,10 @@ EOF
     path_for_tied_positions="$output_dir/tied_positions.jsonl"
     
     echo "Creating fixed positions file for identity threshold: $threshold"
-    python ../helper_scripts/make_fixed_positions_dict.py --input_path=$path_for_parsed_chains --output_path=$path_for_fixed_positions --chain_list "$chains_to_design" --position_list "$fixed_positions"
+    python ${PROTEIN_MPNN_DIR}/helper_scripts/make_fixed_positions_dict.py --input_path=$path_for_parsed_chains --output_path=$path_for_fixed_positions --chain_list "$chains_to_design" --position_list "$fixed_positions"
     
     echo "Creating tied positions file"
-    python ../helper_scripts/make_tied_positions_dict.py --input_path=$path_for_parsed_chains --output_path=$path_for_tied_positions --chain_list "$chains_to_design" --position_list "$tied_positions"
+    python ${PROTEIN_MPNN_DIR}/helper_scripts/make_tied_positions_dict.py --input_path=$path_for_parsed_chains --output_path=$path_for_tied_positions --chain_list "$chains_to_design" --position_list "$tied_positions"
     
     # Run ProteinMPNN
     echo "--------------------------------------"
@@ -180,7 +185,7 @@ EOF
     echo "Using $(echo $fixed_positions | wc -w) fixed positions"
     echo "Output will be saved to: $output_dir"
     
-    python ../protein_mpnn_run.py \
+    python ${PROTEIN_MPNN_DIR}/protein_mpnn_run.py \
         --jsonl_path $path_for_parsed_chains \
         --chain_id_jsonl $path_for_assigned_chains \
         --fixed_positions_jsonl $path_for_fixed_positions \
