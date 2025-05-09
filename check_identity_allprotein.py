@@ -1,6 +1,6 @@
 import os
 import datetime
-from check_identity_results import MPNNResultsChecker  # Assuming you saved the class in check_identity_results.py
+from analyze_protein_identity import MPNNResultsChecker  # Assuming you saved the class in check_identity_results.py
 
 # Define your reference sequence
 reference_sequence = "MQSWYLLYCKRGQLQRAQEHLERQAVNCLAPMITLEKIVRGKRTAVSEPLFPNYLFVEFDPEVIHTTTINATRGVSHFVRFGASPAIVPSAVIHQLSVYKPKDIVDPATPYPGDKVIITEGAFEGFQAIFTEPDGEARSMLLLNLINKEIKHSVKNTEFRKL"
@@ -15,15 +15,16 @@ checker = MPNNResultsChecker(reference_sequence, output_dir)
 
 # Define the MPNN results (paths to directories containing seqs.fa files)
 mpnn_results = {
-    57: "/home/cfneira1/ProteinMPNN/Seqs/identity_positions/seqs/identity_57",
-    62: "/home/cfneira1/ProteinMPNN/Seqs/identity_positions/seqs/identity_62",
-    67: "/home/cfneira1/ProteinMPNN/Seqs/identity_positions/seqs/identity_67",
-    72: "/home/cfneira1/ProteinMPNN/Seqs/identity_positions/seqs/identity_72",
-    77: "/home/cfneira1/ProteinMPNN/Seqs/identity_positions/seqs/identity_77",
-    82: "/home/cfneira1/ProteinMPNN/Seqs/identity_positions/seqs/identity_82",
-    87: "/home/cfneira1/ProteinMPNN/Seqs/identity_positions/seqs/identity_87",
-    92: "/home/cfneira1/ProteinMPNN/Seqs/identity_positions/seqs/identity_92",
-    97: "/home/cfneira1/ProteinMPNN/Seqs/identity_positions/seqs/identity_97",
+    57: "/home/cfneira1/ProteinMPNN/Seqs/identity_positions/identity_57/seqs/",
+    62: "/home/cfneira1/ProteinMPNN/Seqs/identity_positions/identity_62/seqs/",
+    67: "/home/cfneira1/ProteinMPNN/Seqs/identity_positions/identity_67/seqs/",
+    72: "/home/cfneira1/ProteinMPNN/Seqs/identity_positions/identity_72/seqs/",
+    77: "/home/cfneira1/ProteinMPNN/Seqs/identity_positions/identity_77/seqs/",
+    82: "/home/cfneira1/ProteinMPNN/Seqs/identity_positions/identity_82/seqs/",
+    87: "/home/cfneira1/ProteinMPNN/Seqs/identity_positions/identity_87/seqs/",
+    92: "/home/cfneira1/ProteinMPNN/Seqs/identity_positions/identity_92/seqs/",
+    97: "/home/cfneira1/ProteinMPNN/Seqs/identity_positions/identity_97/seqs/",
+    
 }
 
 # Define target identities to check

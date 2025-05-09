@@ -1,0 +1,326 @@
+MPNN SEQUENCE ANALYSIS SUMMARY
+============================
+
+Date of analysis: 2025-05-06 16:19:46
+Analyzing region: 115-162
+Region length: 48 amino acids
+Full reference sequence length: 162 amino acids
+
+RESULTS BY TARGET IDENTITY
+-------------------------
+
+    Target |       Mean |    Std Dev |        Min |        Max |      Count
+---------- | ---------- | ---------- | ---------- | ---------- | ----------
+        57% |      44.10% |      10.61% |      35.21% |     100.00% |         93
+        62% |      63.83% |       6.96% |      57.38% |     100.00% |         93
+        67% |      52.14% |       9.10% |      45.45% |     100.00% |         93
+        72% |      86.01% |       3.13% |      81.13% |     100.00% |         93
+        77% |      83.44% |       3.90% |      71.43% |     100.00% |         93
+        82% |      69.50% |       5.97% |      65.52% |     100.00% |         93
+        87% |      81.82% |       3.36% |      81.13% |     100.00% |         93
+        92% |      85.38% |       2.83% |      84.62% |     100.00% |         93
+        97% |     100.00% |       0.00% |     100.00% |     100.00% |         93
+
+
+DETAILED ANALYSIS
+----------------
+
+Target 57% Identity:
+  - Mean actual identity: 44.10%
+  - Standard deviation: 10.61%
+  - Minimum identity: 35.21%
+  - Maximum identity: 100.00%
+  - Number of sequences: 93
+
+  Identity distribution (ASCII histogram):
+    35.2% ------------------------------ 100.0%
+    ||||||
+    ||||||||||||||||||||||||||||||
+    ||||||||||||||||||
+    |||||||||||||
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ||
+
+  Output files:
+    - Analyzed sequences: /home/cfneira1/ProteinMPNN/Seqs/identity_positions_analysis/region_115_162/sequences_57percent_target.fasta
+
+Target 62% Identity:
+  - Mean actual identity: 63.83%
+  - Standard deviation: 6.96%
+  - Minimum identity: 57.38%
+  - Maximum identity: 100.00%
+  - Number of sequences: 93
+
+  Identity distribution (ASCII histogram):
+    57.4% ------------------------------ 100.0%
+    |||
+    ||||||||||
+    ||||||||||||||||||||||||||||||
+    ||||||||||||
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    |
+
+  Output files:
+    - Analyzed sequences: /home/cfneira1/ProteinMPNN/Seqs/identity_positions_analysis/region_115_162/sequences_62percent_target.fasta
+
+Target 67% Identity:
+  - Mean actual identity: 52.14%
+  - Standard deviation: 9.10%
+  - Minimum identity: 45.45%
+  - Maximum identity: 100.00%
+  - Number of sequences: 93
+
+  Identity distribution (ASCII histogram):
+    45.5% ------------------------------ 100.0%
+    |||||||||||||||||||
+    ||||||||||||||||||||||||||||||
+    |||||||||||||||||||||||
+    ||||||||
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ||
+
+  Output files:
+    - Analyzed sequences: /home/cfneira1/ProteinMPNN/Seqs/identity_positions_analysis/region_115_162/sequences_67percent_target.fasta
+
+Target 72% Identity:
+  - Mean actual identity: 86.01%
+  - Standard deviation: 3.13%
+  - Minimum identity: 81.13%
+  - Maximum identity: 100.00%
+  - Number of sequences: 93
+
+  Identity distribution (ASCII histogram):
+    81.1% ------------------------------ 100.0%
+    
+    
+    
+    ||||||||||||||||||||||||||||||
+    
+    
+    
+    ||||||||||
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    |
+
+  Output files:
+    - Analyzed sequences: /home/cfneira1/ProteinMPNN/Seqs/identity_positions_analysis/region_115_162/sequences_72percent_target.fasta
+
+Target 77% Identity:
+  - Mean actual identity: 83.44%
+  - Standard deviation: 3.90%
+  - Minimum identity: 71.43%
+  - Maximum identity: 100.00%
+  - Number of sequences: 93
+
+  Identity distribution (ASCII histogram):
+    71.4% ------------------------------ 100.0%
+    
+    
+    
+    
+    |||
+    
+    |||||||||||||||||
+    
+    ||||||||||||||||||||||||||||||
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    |
+
+  Output files:
+    - Analyzed sequences: /home/cfneira1/ProteinMPNN/Seqs/identity_positions_analysis/region_115_162/sequences_77percent_target.fasta
+
+Target 82% Identity:
+  - Mean actual identity: 69.50%
+  - Standard deviation: 5.97%
+  - Minimum identity: 65.52%
+  - Maximum identity: 100.00%
+  - Number of sequences: 93
+
+  Identity distribution (ASCII histogram):
+    65.5% ------------------------------ 100.0%
+    ||||||||||||||
+    ||||||||||||||||||||||||||||||
+    
+    ||||||||||||
+    |
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    |
+
+  Output files:
+    - Analyzed sequences: /home/cfneira1/ProteinMPNN/Seqs/identity_positions_analysis/region_115_162/sequences_82percent_target.fasta
+
+Target 87% Identity:
+  - Mean actual identity: 81.82%
+  - Standard deviation: 3.36%
+  - Minimum identity: 81.13%
+  - Maximum identity: 100.00%
+  - Number of sequences: 93
+
+  Identity distribution (ASCII histogram):
+    81.1% ------------------------------ 100.0%
+    ||||||||||||||||||||||||||||||
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    |
+
+  Output files:
+    - Analyzed sequences: /home/cfneira1/ProteinMPNN/Seqs/identity_positions_analysis/region_115_162/sequences_87percent_target.fasta
+
+Target 92% Identity:
+  - Mean actual identity: 85.38%
+  - Standard deviation: 2.83%
+  - Minimum identity: 84.62%
+  - Maximum identity: 100.00%
+  - Number of sequences: 93
+
+  Identity distribution (ASCII histogram):
+    84.6% ------------------------------ 100.0%
+    ||||||||||||||||||||||||||||||
+    
+    
+    
+    ||
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    |
+
+  Output files:
+    - Analyzed sequences: /home/cfneira1/ProteinMPNN/Seqs/identity_positions_analysis/region_115_162/sequences_92percent_target.fasta
+
+Target 97% Identity:
+  - Mean actual identity: 100.00%
+  - Standard deviation: 0.00%
+  - Minimum identity: 100.00%
+  - Maximum identity: 100.00%
+  - Number of sequences: 93
+
+  Identity distribution (ASCII histogram):
+    100.0% ------------------------------ 100.0%
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ||||||||||||||||||||||||||||||
+
+  Output files:
+    - Analyzed sequences: /home/cfneira1/ProteinMPNN/Seqs/identity_positions_analysis/region_115_162/sequences_97percent_target.fasta
+
+
+ANALYSIS NOTES
+-------------
+
+The identity percentage is calculated as the number of matching residues
+divided by the length of the alignment between the reference sequence and
+the generated sequence, multiplied by 100.
+
+Visualizations saved:
+1. Identity distributions: /home/cfneira1/ProteinMPNN/Seqs/identity_positions_analysis/region_115_162/identity_distributions.png
+2. Mean identity by target: /home/cfneira1/ProteinMPNN/Seqs/identity_positions_analysis/region_115_162/mean_identity_by_target.png
